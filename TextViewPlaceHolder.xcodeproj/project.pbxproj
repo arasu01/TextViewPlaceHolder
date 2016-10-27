@@ -12,6 +12,7 @@
 		198A3F551DC0909600DF669A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198A3F4B1DC0909600DF669A /* LaunchScreen.storyboard */; };
 		198A3F561DC0909600DF669A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198A3F4D1DC0909600DF669A /* Main.storyboard */; };
 		198A3F571DC0909600DF669A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 198A3F521DC0909600DF669A /* ViewController.m */; };
+		198A3F6B1DC0DAF600DF669A /* CustomPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 198A3F6A1DC0DAF600DF669A /* CustomPlaceHolderTextView.m */; };
 		19C038AD1DB8F20800FA7A4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C038AC1DB8F20800FA7A4A /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 		198A3F4E1DC0909600DF669A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		198A3F511DC0909600DF669A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		198A3F521DC0909600DF669A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		198A3F691DC0DAF600DF669A /* CustomPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPlaceHolderTextView.h; sourceTree = "<group>"; };
+		198A3F6A1DC0DAF600DF669A /* CustomPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPlaceHolderTextView.m; sourceTree = "<group>"; };
 		19C038A81DB8F20800FA7A4A /* TextViewPlaceHolder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextViewPlaceHolder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C038AC1DB8F20800FA7A4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		19C038BC1DB8F20800FA7A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,6 +71,7 @@
 		198A3F4F1DC0909600DF669A /* SubModules */ = {
 			isa = PBXGroup;
 			children = (
+				198A3F681DC0DAF600DF669A /* CustomPlaceHolderTextView */,
 			);
 			path = SubModules;
 			sourceTree = "<group>";
@@ -79,6 +83,15 @@
 				198A3F521DC0909600DF669A /* ViewController.m */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		198A3F681DC0DAF600DF669A /* CustomPlaceHolderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				198A3F691DC0DAF600DF669A /* CustomPlaceHolderTextView.h */,
+				198A3F6A1DC0DAF600DF669A /* CustomPlaceHolderTextView.m */,
+			);
+			path = CustomPlaceHolderTextView;
 			sourceTree = "<group>";
 		};
 		19C0389F1DB8F20800FA7A4A = {
@@ -190,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				198A3F6B1DC0DAF600DF669A /* CustomPlaceHolderTextView.m in Sources */,
 				198A3F571DC0909600DF669A /* ViewController.m in Sources */,
 				198A3F531DC0909600DF669A /* AppDelegate.m in Sources */,
 				19C038AD1DB8F20800FA7A4A /* main.m in Sources */,
